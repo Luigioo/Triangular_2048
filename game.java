@@ -4,6 +4,7 @@ public class game{
 
     static boolean gg = false;
     static boolean moved = true;
+    
 
     public static void display(int n[][]){
         for (int i=0; i<n.length; i++){
@@ -96,6 +97,7 @@ public class game{
             //System.out.printf("row: %d, col: %d, nelems: %d\n", row, col, nelems);
             for (int i=0; i<nelems; i++){
                 oary[row+i][col+i/2] = sary[5-arys][3-nelems/2+i];
+                
                 //System.out.print(oary[row+i][col+i/2]);
             }
             //System.out.println();
